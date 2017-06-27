@@ -9,7 +9,7 @@
 /node_modules
 
 /src/app
-
+/src/assets/videos
 
 # IDEs and editors
 /.idea

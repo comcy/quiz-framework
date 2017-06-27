@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'fw-media',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FwMediaComponent implements OnInit {
 
+
+  @Input() title: string;
   constructor() { }
 
   ngOnInit() {
+    this.title = "hallo";
+
   }
 
 }

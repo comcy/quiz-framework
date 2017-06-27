@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* Main framework style definitions:
+// - body (colors, margins/paddings)
+// - div
+// - font
+// - titles
+// - links
+// - texts
+*/
+
+* {
+    font:1em/1.5em Monospace;
+	padding:0;
+	margin:0;
+}
+
+p {
+   font-size:12pt;
+}
+
+body {
+    background-color:#EE4A00;
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    margin-bottom: 20px;
+}
+
+div {
+    margin: 35px auto auto auto;
+	width:1250px;
+	padding:10px 10px 10px 10px;
+	border:1px solid rgb(192,192,192);
+	border:1px solid rgba(192,192,192,0.4);
+	background-color:rgb(255,255,255);
+	border-radius:15px;
+}
+
+			h1 {
+				margin-left: auto;
+				margin-right: auto;
+				font-size:2.25em;
+				font-weight:bold;
+				margin:1em 0;
+				border-bottom:1px solid #999;
+			}
+
+			h2 {
+				font-size:1.75em;
+				font-weight:bold;
+				margin:1em 0;
+				border-bottom:1px dashed #999;
+			}
+			
+			a {	
+				font-size: 1.25em;
+				font-weight: bold;
+				color: #00BFFF;
+				margin: 1em 0;
+				text-decoration: none;
+			}
+			
+			a:hover {
+				color: lightblue;
+			}
+
+			ul {
+				overflow: hidden;
+				list-style-type: none;
+			}
+			
+			/* li {
+			// 	// width: 1000px;
+			// }
+
+			// #project img {
+			// 	width: 20%;
+			// 	height:20%;
+			//     	display: auto;
+			//     	margin-left: auto;
+			//     	margin-right: auto;   				
+			// }
+
+			// #projects div {
+			// 	width: 120px;
+			// }
+
+			// #projects a {
+			// 	color: #FFF
+			// }
+
+			// .github {
+			// 	background-color:#000;
+			// 	color: white;
+			// }
+
+			// .tidyapp {
+			// 	background-color:#128A72;
+			// 	color: white;
+			// }
+
+			// .projectsymbols {
+			// 	align:bottom;
+			// 	width: 28%;
+			// 	height:28%;
+			// }
+			*/
+
+			
