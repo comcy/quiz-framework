@@ -8,6 +8,9 @@
 # dependencies
 /node_modules
 
+/src/app
+
+
 # IDEs and editors
 /.idea
 .project
